@@ -1,4 +1,4 @@
-﻿local T, C, L = unpack(select(2, ...)) -- Import: T - functions, constants, variables; C - config; L - locales
+local T, C, L = unpack(select(2, ...)) -- Import: T - functions, constants, variables; C - config; L - locales
 
 C["general"] = {
 	["autoscale"] = true,                               -- mainly enabled for users that don't want to mess with the config file
