@@ -598,6 +598,8 @@ ns.Filger_Spells = {
 			{ spellID = 87138, size = 47, unitId = "player", caster = "player", filter = "BUFF" },
 			-- Hand of Light 
 			{ spellID = 90174, size = 47, unitId = "player", caster = "player", filter = "BUFF" },
+			-- Divine Purpose Rank 2
+			{ spellID = 86172, size = 47, unitId = "player", caster = "player", filter = "BUFF" },
 		},
 	},
 	["WARRIOR"] = {  -------------------------------------------------------------------------------------------------------- Warrior
