@@ -86,7 +86,7 @@ C["unitframes"] = {
 }
    -- credit Elv
 C["interruptanncounce"] = {
-	["enable"] = true,		       -- enable/disable interrupt announce
+	["enable"] = false,		       -- enable/disable interrupt announce
 }
 
 C["arena"] = {
@@ -156,8 +156,8 @@ C["datatext"] = {
 	["regen"] = 9,                                      -- show mana regeneration
 
 	["battleground"] = true,                            -- enable 3 stats in battleground only that replace stat1,stat2,stat3.
-	["time24"] = true,                                  -- set time to 24h format.
-	["localtime"] = false,                              -- set time to local time instead of server time.
+	["time24"] = false,                                  -- set time to 24h format.
+	["localtime"] = true,                              -- set time to local time instead of server time.
 
 	-- Color Datatext
 	["classcolor"] = true,                -- classcolored datatexts 
@@ -172,7 +172,7 @@ C["datatext"] = {
 C["chat"] = {
 	["enable"] = true,                                  -- blah
 	["whispersound"] = true,                            -- play a sound when receiving whisper
-	["background"] = false,                             -- chat backdrop
+	["background"] = true,                             -- chat backdrop
 	["tabcolor"] = {150/255, 150/255, 150/255},              -- color of chat tabs, disabled if classcolor is true
 	["tabmouseover"] = {1,1,1,1},          -- color of tabs on mouse-over
 	["classcolortab"] = true,             -- color chat tabs based on class
@@ -184,19 +184,19 @@ C["chat"] = {
 	
 	-- credit Hydra
 	["names"] = { -- name alert in chat change to your own names
-	    "Jásje", 
-		"Jasje", 
-	    "Jasjè",  
-	    "Noshì",
-	    "Noshi", 
-	    "Tom"
+	    "Shampuu", 
+		"Sham", 
+	    "Dezimal",  
+	    "Dez",
+	    "Shamp", 
+	    "Dezi"
 	},              
 }
 
 C["nameplate"] = {
 	["enable"] = true,                                  -- enable nice skinned nameplates that fit into tukui
-	["showhealth"] = false,				                -- show health text on nameplate
-	["enhancethreat"] = false,			                -- threat features based on if your a tank or not
+	["showhealth"] = true,				                -- show health text on nameplate
+	["enhancethreat"] = true,			                -- threat features based on if your a tank or not
 	["combat"] = false,					                -- only show enemy nameplates in-combat.
 	["goodcolor"] = {75/255,  175/255, 76/255},	        -- good threat color (tank shows this with threat, everyone else without)
 	["badcolor"] = {0.78, 0.25, 0.25},			        -- bad threat color (opposite of above)
